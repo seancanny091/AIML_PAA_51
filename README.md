@@ -43,7 +43,7 @@ There are 74 duplicate rows. This is a survey and, as such, it is quite possible
 * Acceptance rate for people who go to the bar more than 3 times a month: **76%**
 * Acceptance rate for drivers who go to the bar more than once a month and are over 25 years old: **70%**
 * Acceptance rate for drivers who go to the bar more than once a month, have passengers that are not kids, and have occupations other than farming, fishing, or forestry: **71%**
-* Acceptance rate for drivers who go to the bar more than once a month, have passengers that are not kids, and are not widowed: 71%
+* Acceptance rate for drivers who go to the bar more than once a month, have passengers that are not kids, and are not widowed: **71%**
 * Acceptance rate for drivers who go to the bar more than once a month and are under 30 years old: **72%**
 * Acceptance rate for drivers who go to cheap restaurants more than 4 times a month and have an income less than 50K: **45%**
 
