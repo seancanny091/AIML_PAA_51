@@ -1,7 +1,10 @@
 # Practical Application Assignment 5.1 - Will the Customer Accept the Coupon?
 
 
-The goal of this project was to use visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not.
+The goal of this project was to use visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not. The dataset used in the analysis is available here:
+
+[Link to Coupons Dataset](/coupons.csv)
+
 
 The programming language used was Python, and the libraries used were: Pandas, Seaborn, Matplotlib, and numpy
 The specifics of the analysis, including code, visualizations, comments, and observations are contained in the following Jupiter Notebook:
