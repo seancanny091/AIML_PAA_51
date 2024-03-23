@@ -6,13 +6,13 @@ The goal of this project was to use visualizations and probability distributions
 The programming language used was Python, and the libraries used were: Pandas, Seaborn, Matplotlib, and numpy
 The specifics of the analysis, including code, visualizations, comments, and observations are contained in the following Jupiter Notebook:
 
-
+[Link to Jupyter Notebook](/PAA_51.jpynb)
 
 ## Exploratory Data Analysis:
 
-The python SweetViz library was leveraged for initial data exploration. The complete SweetViz report is available here:
+The python SweetViz library was leveraged for initial data exploration. The complete SweetViz report is available here: 
 
-https://github.com/seancanny091/AIML_PAA_51/blob/main/assignment_5_1_starter/SWEETVIZ_REPORT.html
+[Link to SweetViz Report](/SWEETVIZ_REPORT.html)
 
 The following potential data quality issues were identified:
 
@@ -23,6 +23,10 @@ With approximately 99% of the values for 'car' being blank it isn't really addin
 There are 74 duplicate rows. This is a survey and, as such, it is quite possible that there will be duplicates. The duplicates have been retained as we are interested in every response.
 
 ## General Data Visualizations
+![Image](/images/CouponTypeDist.png)
+<br>
+<br>
+![Image](/images/TempDist.png)
 
 
 ## Data Summary Points
@@ -53,6 +57,28 @@ Based on the observations, we can hypothesize the following about drivers who ac
 * **Economic and Dining Preferences:** Drivers with specific economic and dining preferences, such as those who frequent cheap restaurants and have an income of less than 50K, have distinct acceptance rates. This could suggest that economic factors and personal dining habits influence the perceived value of bar coupons.
   
 * **General Acceptance Among Other Drivers:** The relatively lower acceptance rate among "all other drivers" indicates that there are specific demographic and behavioral traits that significantly influence the likelihood of accepting bar coupons. This group likely includes drivers who do not frequently visit bars or do not fit into the specific demographic profiles outlined above.
+<br>
+<br>
 
+# Independent Investigation - Carry Out & Take Away Coupon Declines
+
+Further analysis focused on drivers who declined Carry Out & Take Away coupons.
+<br>
+<br>
+![Image](/images/CouponsDeclineByAge.png)
+
+**Age:** The age groups of 21 and 26 years old are the most likely to decline Carry Out & Take away coupons, each constituting approximately 20% of the declines. This suggests that younger adults in their early to mid-twenties are more inclined to decline these coupons.
+<br>
+<br>
+
+![Image](/images/CouponsDeclineByMaritalStatus.png)
+
+**Marital Status:** The majority of declines come from individuals with a married partner (approximately 40%) and singles (approximately 37%). This indicates that marital status, particularly being married or single, plays a significant role in the likelihood of declining Carry Out & Take away coupons.
+<br>
+<br>
+
+![Image](/images/CouponsDeclineByEducation.png)
+
+**Education:** Individuals with a Bachelor's degree are the most likely to decline these coupons, making up approximately 37% of the declines, followed by those with some college but no degree (approximately 30%). This suggests a higher tendency to decline among those with higher education levels.
 
 
